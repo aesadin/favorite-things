@@ -14,10 +14,11 @@ $(document).ready(function() {
   const newMovie = [allMyFavoriteThings[0]];
   const newFood = [allMyFavoriteThings[1]]
   const newSong = [allMyFavoriteThings[2]]
+  //const newSong2 = [newSong.push("Formation")];
 
   $("#movie1").text(newMovie.toString());
   $("#food1").text(newFood.toString());
-  $("#song1").text(newSong.toString());
+  $("#song1").text(newSong.toString(newSong.push(" Formation")));
     
   });
 });
